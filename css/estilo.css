@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.item-container{
+    display: flex;
+    padding: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lugar-box{
+    display: flex;
+    margin: 1%;
+    border-radius: 10px;
+    width: 15%;
+    min-width: 250px;
+    cursor: pointer;
+    height: 200px;
+}
+.libre{
+    background-color: #eeeeee;
+    color: #808080;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 500;
+}
+.ocupado {
+    background-color: #ffcaca !important;
+    color: #8a4141;
+    flex-direction: column;
+    font-size: 20px;
+}
+.ocupado h5{
+    text-align: center;
+    background-color: #8a4141;
+    color: #ffcaca;
+    font-size: 30px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+.ocupado p {
+    margin: 0 20px;
+}
+
+header{
+    background-color: #dedede;
+    padding: 0.5% 10% 0.5% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.formulario{
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.formulario legend{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.formulario label {
+    margin: 10px 0 5px 0;
+}
+
+.formulario input, select{
+    padding: 5px;
+    border: solid #808080 1px;
+}
+
+.formulario .formulario-boton{
+    border: none;
+    cursor: pointer;
+    background-color: #d8d8d8;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+}
+
+.table-container{
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+table {
+    border-collapse: collapse;
+}
+table thead {
+    background-color: #eeeeee;
+    position: sticky;
+    top: 0;
+}
+
+table th, table td {
+    padding: 10px 20px;
+    text-align: center;
+}
